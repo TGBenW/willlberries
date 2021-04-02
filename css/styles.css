@@ -23,6 +23,10 @@ body {
   font-size: 14px;
   line-height: 20px;
 }
+.logo-image {
+  margin-left: 50px;
+}
+
 .button {
   padding: 10px 20px;
   background: #4592FF;
