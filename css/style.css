@@ -98,11 +98,15 @@ img {
 }
 
 .slide-1 {
-    background: #B4D1E0 url('../img/slide-image-1.png') no-repeat top right 30%;
+    background: #B9E0B4 url('../img/slide-image-11.png') no-repeat top right 30%;
 }
 
 .slide-2 {
-    background: #b9e0b4 url('../img/slide-image-1.png') no-repeat top right 30%;
+    background: #EDB183 url('../img/slide-image-22.png') no-repeat top right 30%;
+}
+
+.slide-3 {
+    background: #F7B2AD url('../img/slide-image-33.png') no-repeat top right 30%;
 }
 
 .label {
@@ -160,18 +164,18 @@ img {
 }
 
 .card-1 {
-    background: #E3E2E3 url('../img/card-image-1.jpg') no-repeat top right;
+    background: #E3E2E3 url('../img/card-image-11.jpg') no-repeat top right;
     background-size: cover;
 }
 
 .card-2 {
-    background: #000 url('../img/card-image-2.jpg') no-repeat top right;
+    background: #000 url('../img/card-image-22.jpg') no-repeat top right;
     background-size: cover;
 }
 
 .card-3 {
     padding-top: 35px;
-    background: #CCD5E6 url('../img/card-image-3.png') no-repeat top right 10%;
+    background: #B4D1E0 url('../img/card-image-33.png') no-repeat top right 10%;
     background-size: contain;
 }
 
@@ -181,7 +185,7 @@ img {
     align-items: flex-start;
     padding-top: 35px;
     padding-left: 25px;
-    background: #FF4F52 url('../img/card-image-4.png') no-repeat top right;
+    background: #FF4F52 url('../img/card-image-44.png') no-repeat top right;
     background-size: contain;
 }
 
