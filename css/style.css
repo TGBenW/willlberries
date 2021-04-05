@@ -98,7 +98,7 @@ img {
 }
 
 .slide-1 {
-    background: #B9E0B4 url('../img/slide-image-11.png') no-repeat top right 30%;
+    background: #B9E0B4 url('../img/slide-image-11.png') no-repeat top right 25%;
 }
 
 .slide-2 {
@@ -382,7 +382,7 @@ img {
     min-width: 600px;
     max-height: 400px;
     padding: 30px;
-    overflow: scroll;
+    overflow: auto;
     position: relative;
 }
 
@@ -470,7 +470,6 @@ img {
     width: 5px;
 }
 
-
 @media (max-width: 1200px) {
     .slide-1 {
         background-size: cover;
@@ -478,6 +477,15 @@ img {
 
     .card-3 {
         background-size: cover;
+    }
+    .swiper-slide {
+        padding-bottom: 0;
+    }
+    .slide-3 {
+        background-position: top right 10%;
+    }
+    .card-3 .card-title, .card-3 .card-text {
+        color: #fff;
     }
 }
 
@@ -491,7 +499,26 @@ img {
         max-height: 300px;
         padding: 20px;
     }
+    .slide-title {
+        max-width: 500px;
+    }
+    .slide-2 {
+        background-position: top right 10%;
+    }
+    .slide-3 {
+        background-position: top right;
+    }
+}
 
+@media (max-width: 768px) {
+    .slide-1 .slide-title,
+    .slide-1 .slide-description,
+    .slide-2 .slide-title,
+    .slide-2 .slide-description,
+    .slide-3 .slide-title,
+    .slide-3 .slide-description {
+        color: #fff;
+    }
 }
 
 @media (max-width: 576px) {
@@ -500,24 +527,22 @@ img {
         line-height: 1.4;
         margin-bottom: 0;
     }
-
     .card {
         background-position: left top;
     }
-
     .card-4 {
         background-position: right top;
     }
-
     .card {
         padding: 30px;
         min-height: 300px;
     }
-
     .modal {
         min-width: 300px;
         max-height: 400px;
         padding: 20px;
     }
-
+    .slide-3 {
+        background-position: top left 20%;
+    }
 }
