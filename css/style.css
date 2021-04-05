@@ -378,12 +378,15 @@ img {
 }
 
 .modal {
-    background-color: #e0e0ff;
+    background-color: #C9E8C5;
     min-width: 600px;
     max-height: 400px;
     padding: 30px;
     overflow: auto;
     position: relative;
+    border: 3px solid #F7E348;
+    border-radius: 25px;
+
 }
 
 .modal-header{
@@ -470,6 +473,14 @@ img {
     width: 5px;
 }
 
+.button-cart {
+    position: fixed;
+    z-index: 9;
+    top: 20px;
+    right: 20px;
+    opacity: 0.75;
+}
+
 @media (max-width: 1200px) {
     .slide-1 {
         background-size: cover;
@@ -544,5 +555,15 @@ img {
     }
     .slide-3 {
         background-position: top left 20%;
+    }
+}
+
+@media (max-width: 387px) {
+    .logo-bee-image {
+        display: none;
+    }
+    .button-cart {
+        top: 10px;
+        opacity: 0.5;
     }
 }
